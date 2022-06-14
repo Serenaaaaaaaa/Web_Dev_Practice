@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>小米商城 - Xiaomi 11 Ultra、Redmi K20 Pro、MIX FOLD, 小米电视官方网站</title>
+	<!--以下顺序不能变：网页图标，全局样式，字体图标，自己的样式-->
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<!--左边的list-->
+			<ul class="header-left">
+				<li><a href="#">小米商城</a><span>|</span></li>
+				<li><a href="#">MIUI</a><span>|</span></li>
+				<li><a href="#">IoT</a><span>|</span></li>
+				<li><a href="#">云服务</a><span>|</span></li>
+				<li><a href="#">天星数科</a><span>|</span></li>
+				<li><a href="#">有品</a><span>|</span></li>
+				<li><a href="#">小爱开放平台</a><span>|</span></li>
+				<li><a href="#">企业团购</a><span>|</span></li>
+				<li><a href="#">资质证照</a><span>|</span></li>
+				<li><a href="#">协议规则</a><span>|</span></li>
+				<li><a href="#">下载app</a><span>|</span>
+					<div class="download">
+						<a href="#">
+							<img src="images/78c30d4f259ed43ab20e810a522a6249.png" alt="">
+							<p>小米商城APP</p>
+						</a>
+					</div>
+					<!--那个三角形可以自己画出来！-->
+					<!--triangle的div放在download前或后都可以，因为download已经是float的了-->
+					<div class="triangle"></div>
+				</li>
+				<li><a href="#">Select Location</a></li>
+			</ul>
+			<!--右边的list-->
+			<ul class="header-right">
+				<li><a href="#">登录</a><span>|</span></li>
+				<li><a href="#">注册</a><span>|</span></li>
+				<li><a href="#">消息通知</a></li>
+				<li class="cart">
+					<a href="#">
+						<i class="iconfont">&#xe652;</i>购物车（0）
+					</a>
+					<div class="cart-list">购物车中还没有商品，赶紧选购吧！</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!--navigation bar-->
+	<div class="nav">
+		<div class="container">
+			<div class="logo">
+				<a href="#"><img src="images/logo-mi2.png" alt=""></a>
+			</div>
+			<div class="nav-bar">
+				<ul>
+					<li>
+						<a href="#">Xiaomi手机</a>
+						<div class="nav-bar-list"> <!--大概是由于父元素变了所以container约束不到了-->
+							<div class="container">
+								<ul>
+									<li>
+										<a href="#">
+											<div class="image-div"><img src="images/88ae9b85c5f8fbdae2ea98d58a045e1e.webp" alt=""></div> <!--套这个div是为了加右边框-->
+											<!--小米商城官网找不到竖杠相关内容是因为用了伪对象-->
+											<p>Xiaomi Civi 1S</p>
+											<p>2299元起</p>
+									    </a>
+								    </li>
+								    <li>
+										<a href="#">
+											<div class="image-div"><img src="images/02ac31f8d3848f71617e074e8e50879e.webp" alt=""></div>
+											<p>Xiaomi 12 Pro</p>
+											<p>4199元起</p>
+									    </a>
+								    </li>
+								    <li>
+										<a href="#">
+											<div class="image-div"><img src="images/34eec49ce46adcd4739e60a2b56062fc.webp" alt=""></div>
+											<p>Xiaomi 12</p>
+											<p>3199元起</p>
+									    </a>
+								    </li>
+								    <li>
+										<a href="#">
+											<div class="image-div"><img src="images/075d45f17b32b39c98be850a5592bbee.webp" alt=""></div>
+											<p>Xiaomi 12 X</p>
+											<p>2399元起</p>
+									    </a>
+								    </li>
+								    <li>
+										<a href="#">
+											<div class="image-div"><img src="images/88ae9b85c5f8fbdae2ea98d58a045e1e.webp" alt=""></div>
+											<p>Xiaomi 11 青春活力版</p>
+											<p>1799元起</p>
+									    </a>
+								    </li>
+								    <li>
+										<a href="#">
+											<div class="image-div"><img src="images/88ae9b85c5f8fbdae2ea98d58a045e1e.webp" alt=""></div>
+											<p>Xiaomi Civi</p>
+											<p>2299元起</p>
+									    </a>
+								    </li>
+								</ul>
+							</div>							
+						</div>
+					</li>
+					<li><a href="#">Redmi红米</a></li>
+					<li><a href="#">电视</a></li>
+					<li><a href="#">笔记本</a></li>
+					<li><a href="#">平板</a></li>
+					<li><a href="#">家电</a></li>
+					<li><a href="#">路由器</a></li>
+					<li><a href="#">服务</a></li>
+					<li><a href="#">社区</a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<input type="text">
+				<a href="#" class="iconfont">&#xe60d;</a>
+				<div class="search-list">
+					<a href="#">全部商品</a>
+					<a href="#">黑鲨5</a>
+					<a href="#">手机</a>
+					<a href="#">洗衣机</a>
+					<a href="#">冰箱</a>
+					<a href="#">风扇</a>
+					<a href="#">净水器</a>
+					<a href="#">电视</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--banner-->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-box"></div>
+			<div class="prev"></div>
+			<div class="next"></div>
+			<div class="slide">
+				<ul>
+					<li>
+						<a href="#">手机<i class="iconfont"></i></a>
+						<div class="slide-list list-4">
+							<ul>
+								<li><a href="#"><img src="images/d8aeccb0bad7f28a44aa89b2ddb51010.png" alt=""><span>Note 11T Pro+</span></a></li>
+								<li><a href="#"><img src="images/5cef72d0fea727cdf62b8e18b3d039d1.png" alt=""><span>Note 11T Pro</span></a></li>
+								<li><a href="#"><img src="images/6932d946285eb25ea28837eee21cbcd3.png" alt=""><span>Note 11SE</span></a></li>
+								<li><a href="#"><img src="images/c680c8d69a77ebfa924af7daa1a854be.png" alt=""><span>Xiaomi Civi 1S</span></a></li>
+								<li><a href="#"><img src="images/58eff3ffcf8df68e9ee8bbf90f1e8fa9.png" alt=""><span>黑鲨5 Pro</span></a></li>
+								<li><a href="#"><img src="images/a75970583c27c5cfe61f8dcafc3245c1.png" alt=""><span>黑鲨5</span></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="images/aa7c5302bf6c8e040b084dee50fa699f.webp" alt=""><span>智能家庭</span></a></li>
+								<li><a href="#"><img src="images/21fedf7ba9019bce59cbc4856f907076.jpg" alt=""><span>对讲机</span></a></li>
+								<li><a href="#"><img src="images/067f4a6f0ffb264ed40734a97deae52d.jpg" alt=""><span>摄像机</span></a></li>
+								<li><a href="#"><img src="images/4fb7885d49255b93f7245aa53501294c.jpg" alt=""><span>智能门锁</span></a></li>
+								<li><a href="#"><img src="images/feaab5bd13257dbe8f30b80b6a4472be.jpg" alt=""><span>视频门铃</span></a></li>
+								<li><a href="#"><img src="images/90b75c1046e486c19f14effd9b45f488.png" alt=""><span>小爱老师</span></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="images/6c5a536995472fde3a919222adab2778.webp" alt=""><span>Note 11T Pro+</span></a></li>
+								<li><a href="#"><img src="images/435f8b56d41de210d1c4598f4f00fa50.webp" alt=""><span>Note 11T Pro</span></a></li>
+								<li><a href="#"><img src="images/5ef6c2d63df78e140afab6ac3c088fac.jpg" alt=""><span>Note 11SE</span></a></li>
+								<li><a href="#"><img src="images/b1c8b0308b1591ab93b7fe0937a52427.webp" alt=""><span>Xiaomi Civi 1S</span></a></li>
+								<li><a href="#"><img src="images/5a18e471294cf49b6937ae90fac6d583.webp" alt=""><span>黑鲨5 Pro</span></a></li>
+								<li><a href="#"><img src="images/4670a965ac5f0dd32689e06c27cea78f.webp" alt=""><span>黑鲨5</span></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="images/6c5a536995472fde3a919222adab2778.webp" alt=""><span>Note 11T Pro+</span></a></li>
+								<li><a href="#"><img src="images/435f8b56d41de210d1c4598f4f00fa50.webp" alt=""><span>Note 11T Pro</span></a></li>
+								<li><a href="#"><img src="images/5ef6c2d63df78e140afab6ac3c088fac.jpg" alt=""><span>Note 11SE</span></a></li>
+								<li><a href="#"><img src="images/b1c8b0308b1591ab93b7fe0937a52427.webp" alt=""><span>Xiaomi Civi 1S</span></a></li>
+								<li><a href="#"><img src="images/5a18e471294cf49b6937ae90fac6d583.webp" alt=""><span>黑鲨5 Pro</span></a></li>
+								<li><a href="#"><img src="images/4670a965ac5f0dd32689e06c27cea78f.webp" alt=""><span>黑鲨5</span></a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">电视</a></li>
+					<li><a href="#">笔记本 平板</a></li>
+					<li><a href="#">出行 穿戴</a></li>
+					<li><a href="#">耳机 音响</a></li>
+					<li><a href="#">家电</a></li>
+					<li>
+						<a href="#">智能 路由器</a>
+						<div class="slide-list list-3">
+							<ul>
+								<li><a href="#"><img src="images/6c5a536995472fde3a919222adab2778.webp" alt=""><span>CyberDog</span></a></li>
+								<li><a href="#"><img src="images/435f8b56d41de210d1c4598f4f00fa50.webp" alt=""><span>MIJIA K歌麦克风</span></a></li>
+								<li><a href="#"><img src="images/5ef6c2d63df78e140afab6ac3c088fac.jpg" alt=""><span>打印机</span></a></li>
+								<li><a href="#"><img src="images/b1c8b0308b1591ab93b7fe0937a52427.webp" alt=""><span>喷墨打印机</span></a></li>
+								<li><a href="#"><img src="images/5a18e471294cf49b6937ae90fac6d583.webp" alt=""><span>喷墨打印机墨水</span></a></li>
+								<li><a href="#"><img src="images/4670a965ac5f0dd32689e06c27cea78f.webp" alt=""><span>小米路由器</span></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="images/aa7c5302bf6c8e040b084dee50fa699f.webp" alt=""><span>智能家庭</span></a></li>
+								<li><a href="#"><img src="images/21fedf7ba9019bce59cbc4856f907076.jpg" alt=""><span>对讲机</span></a></li>
+								<li><a href="#"><img src="images/067f4a6f0ffb264ed40734a97deae52d.jpg" alt=""><span>摄像机</span></a></li>
+								<li><a href="#"><img src="images/4fb7885d49255b93f7245aa53501294c.jpg" alt=""><span>智能门锁</span></a></li>
+								<li><a href="#"><img src="images/feaab5bd13257dbe8f30b80b6a4472be.jpg" alt=""><span>视频门铃</span></a></li>
+								<li><a href="#"><img src="images/90b75c1046e486c19f14effd9b45f488.png" alt=""><span>小爱老师</span></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="images/399b717a9d27252f21e32a981403c1c0.webp" alt=""><span>Redmi路由器</span></a></li>
+								<li><a href="#"><img src="images/7242436b36197a81d73b67ce6a5f26f5.webp" alt=""><span>小爱音箱</span></a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">电源 配件</a>
+						<div class="slide-list list-2">
+							<ul>
+								<li><a href="#"><img src="images/6c5a536995472fde3a919222adab2778.webp" alt=""><span>CyberDog</span></a></li>
+								<li><a href="#"><img src="images/435f8b56d41de210d1c4598f4f00fa50.webp" alt=""><span>MIJIA K歌麦克风</span></a></li>
+								<li><a href="#"><img src="images/5ef6c2d63df78e140afab6ac3c088fac.jpg" alt=""><span>打印机</span></a></li>
+								<li><a href="#"><img src="images/b1c8b0308b1591ab93b7fe0937a52427.webp" alt=""><span>喷墨打印机</span></a></li>
+								<li><a href="#"><img src="images/5a18e471294cf49b6937ae90fac6d583.webp" alt=""><span>喷墨打印机墨水</span></a></li>
+								<li><a href="#"><img src="images/4670a965ac5f0dd32689e06c27cea78f.webp" alt=""><span>小米路由器</span></a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="images/aa7c5302bf6c8e040b084dee50fa699f.webp" alt=""><span>智能家庭</span></a></li>
+								<li><a href="#"><img src="images/21fedf7ba9019bce59cbc4856f907076.jpg" alt=""><span>对讲机</span></a></li>
+								<li><a href="#"><img src="images/067f4a6f0ffb264ed40734a97deae52d.jpg" alt=""><span>摄像机</span></a></li>
+								<li><a href="#"><img src="images/4fb7885d49255b93f7245aa53501294c.jpg" alt=""><span>智能门锁</span></a></li>
+								<li><a href="#"><img src="images/feaab5bd13257dbe8f30b80b6a4472be.jpg" alt=""><span>视频门铃</span></a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">健康 儿童</a></li>
+					<li><a href="#">生活 箱包</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--Advertisement(未完成)-->
+	<div class="adv">
+		<div class="container">
+			<div class="adv-list">
+				<ul>
+					<li class="row col">
+						<a href="#">
+							<i class="iconfont">&#xe65a;</i>
+							保障服务
+						</a>
+					</li>
+					<li class="row col">
+						<a href="#">
+							<i class="iconfont">&#xe646;</i>
+							保障服务
+						</a>
+					</li>
+					<li class="row">
+						<a href="#">
+							<i class="iconfont">&#xf003d;</i>
+							企业团购
+						</a>
+					</li>
+					<li class="col">
+						<a href="#">
+							<i class="iconfont">&#xe894;</i>
+							F码通道
+						</a>
+					</li>
+					<li class="col">
+						<a href="#">
+							<i class="iconfont">&#xe631;</i>
+							米粉卡
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="iconfont">&#xe66f;</i>
+							保障服务
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="adv-picture first-picture"><a href="#"><img src="images/2596938425e8d9019ffae94fbcfa4524.jpg" alt=""></a></div>
+			<div class="adv-picture"><a href="#"><img src="images/d0c0c4d84bc85c12d936bf5d8775af44.jpg" alt=""></a></div>
+			<div class="adv-picture"><a href="#"><img src="images/28c13d0d11b38ec17fa5d83bc6ba5912.jpg" alt=""></a></div>
+		</div>
+	</div>
+
+	<!--主题-->
+	<div class="page-main">
+		<div class="container">
+			<!--广告1：手机-->
+			<!--长条广告-->
+			<div class="long-ad"><a href="#"><img src="images/b2a3468c474addf9140a21cc77a87d5c.jpeg" alt=""></a></div>
+			<!--手机块-->
+			<div class="main-brick-box">
+				<div class="brick-box-title">
+					<h2>手机</h2>
+					<div class="more"><a href="#">查看更多<i class="iconfont"></i></a></div>
+				</div>
+				<div class="brick-box-row">
+					<a href="#"><img src="images/ac5cafc68c10ce4471869d378f594b52.png" alt=""></a>
+					<div class="brick-box-products">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="images/211bb83776a8e0c8358732c3f3aa2864.png" alt="">
+								    <h3>Redmi Note 11T Pro+</h3>
+								    <p>天玑8100 | 真旗舰芯</p>
+								    <div>1999元起<span>2099元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/5713971c4bb6512743dfd06023080268.png" alt="">
+								    <h3>Redmi Note 11T Pro</h3>
+								    <p>天玑8100 | 真旗舰芯</p>
+								    <div>1699元起<span>1799元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/7fccce9e65aff2d7c913e40f4bee1b0b.png" alt="">
+								    <h3>Redmi Note 11SE</h3>
+								    <p>双卡双5G | 急速登陆</p>
+								    <div>999元起<span>1099元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/0bcd64f412dfb5e15695fa96d21ecb23.png" alt="">
+								    <h3>Xiaomi Civi 1S</h3>
+								    <p>原生美肌人像 | 奇迹阳光动人新色 | 骁龙778G Plus</p>
+								    <div>1999元起<span>2099元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/d764150a470174741d8b0b04515f7a78.jpg" alt="">
+								    <h3>Redmi 10A</h3>
+								    <p>大电量、大音量、大屏幕</p>
+								    <div>649元起<span>699元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/18d2099cb0b05bbd23cb1915dfc9d0d6.jpg" alt="">
+								    <h3>Redmi K50 Pro</h3>
+								    <p>2K直屏的狠旗舰</p>
+								    <div>2699元起<span>2999元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/28c14106b688ac7ae88e761564789b37.jpg" alt="">
+								    <h3>Redmi K50</h3>
+								    <p>2K直屏的狠旗舰</p>
+								    <div>2199元起<span>2399元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/28febc579eaea6b07c96c0ec48b89f7a.jpg" alt="">
+								    <h3>Redmi K40S</h3>
+								    <p>口碑真旗舰</p>
+								    <div>1799元起</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!--广告2：智能穿戴-->
+			<div class="main-brick-box">
+				<div class="brick-box-title">
+					<h2>智能穿戴</h2>
+				</div>
+				<div class="brick-box-row">
+					<a href="#"><img src="images/9895c56a7b792fb9053e3085fc261072.jpg" alt=""></a>
+					<div class="brick-box-products">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="images/b8259e8fb355acf168c66f75d375c6af.jpg" alt="">
+								    <h3>Xiaomi Watch S1</h3>
+								    <p>蓝宝石玻璃镜面 | 不锈钢中框 | 1.43”AMOLED大屏幕</p>
+								    <div>999元起<span>1099元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/0b271a074e087848357aa61ae665b214.jpg" alt="">
+								    <h3>Xiaomi真无线降噪耳机3</h3>
+								    <p>40dB宽频主动降噪 | HiFi高保真音质 | HRTF专业调音</p>
+								    <div>299元起<span>499元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/f84503dbf5adbdf17111c61d4a7cf893.jpg" alt="">
+								    <h3>Redmi 手表 2</h3>
+								    <p>1.6"AMOLED大屏 | 117种运动模式 | 24小时心率监测</p>
+								    <div>359元起<span>399元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/b28153b80cb2c67564608e56d5c2f3f3.jpg" alt="">
+								    <h3>小米手环6 NFC版</h3>
+								    <p>1.56" 跑道全面彩屏 | 30种运动模式 | 24小时心率监测</p>
+								    <div>239元起<span>279元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/0cc4e8e58d7288cd8dff13b98bdc3ea8.jpg" alt="">
+								    <h3>Xiaomi 真无线降噪耳机 3 Pro</h3>
+								    <p>40dB自适应降噪 ｜空间音频 ｜ HiFi高保真音质</p>
+								    <div>599元起<span>699元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/11570d5371f16d2d9b19f504e09d01f0.jpg" alt="">
+								    <h3>Redmi Buds 3半入耳真无线蓝牙耳机</h3>
+								    <p>轻巧半入耳 | 通话降噪 | 20小时长续航</p>
+								    <div>169元起<span>199元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/28c14106b688ac7ae88e761564789b37.jpg" alt="">
+								    <h3>Redmi Buds 3 青春版</h3>
+								    <p>轻巧真无线 | 猫耳状稳固设计 | 18小时长续航</p>
+								    <div>99元起</div>
+								</a>
+							</li>
+							<li class="last-item">
+								<div>
+									<div>浏览更多<small>热门</small></div>
+									<i class="iconfont"></i>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- 
+			<div class="main-brick-box">
+				<div class="brick-box-title">
+					<h2>家电</h2>
+				</div>
+				<div class="brick-box-row">
+					<a href="#"><div class="double-imgs"></div></a>
+					<div class="brick-box-products">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="images/b8259e8fb355acf168c66f75d375c6af.jpg" alt="">
+								    <h3>Xiaomi Watch S1</h3>
+								    <p>蓝宝石玻璃镜面 | 不锈钢中框 | 1.43”AMOLED大屏幕</p>
+								    <div>999元起<span>1099元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/0b271a074e087848357aa61ae665b214.jpg" alt="">
+								    <h3>Xiaomi真无线降噪耳机3</h3>
+								    <p>40dB宽频主动降噪 | HiFi高保真音质 | HRTF专业调音</p>
+								    <div>299元起<span>499元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/f84503dbf5adbdf17111c61d4a7cf893.jpg" alt="">
+								    <h3>Redmi 手表 2</h3>
+								    <p>1.6"AMOLED大屏 | 117种运动模式 | 24小时心率监测</p>
+								    <div>359元起<span>399元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/b28153b80cb2c67564608e56d5c2f3f3.jpg" alt="">
+								    <h3>小米手环6 NFC版</h3>
+								    <p>1.56" 跑道全面彩屏 | 30种运动模式 | 24小时心率监测</p>
+								    <div>239元起<span>279元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/0cc4e8e58d7288cd8dff13b98bdc3ea8.jpg" alt="">
+								    <h3>Xiaomi 真无线降噪耳机 3 Pro</h3>
+								    <p>40dB自适应降噪 ｜空间音频 ｜ HiFi高保真音质</p>
+								    <div>599元起<span>699元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/11570d5371f16d2d9b19f504e09d01f0.jpg" alt="">
+								    <h3>Redmi Buds 3半入耳真无线蓝牙耳机</h3>
+								    <p>轻巧半入耳 | 通话降噪 | 20小时长续航</p>
+								    <div>169元起<span>199元</span></div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/28c14106b688ac7ae88e761564789b37.jpg" alt="">
+								    <h3>Redmi Buds 3 青春版</h3>
+								    <p>轻巧真无线 | 猫耳状稳固设计 | 18小时长续航</p>
+								    <div>99元起</div>
+								</a>
+							</li>
+							<li class="last-item">
+								<div>
+									<div>浏览更多<small>热门</small></div>
+									<i class="iconfont"></i>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div> -->
+
+			<!--视频-->
+			<!-- <div class="video">
+				<div class="brick-box-title">
+					<h2>视频</h2>
+					<div class="more"><a href="#">查看全部<i class="iconfont"></i></a></div>
+				</div>
+				<div class="video-box">
+					<ul>
+						<li class="video-items">
+							<a href="#">
+								<div class="video-img"></div>
+							</a>
+						</li>
+						<li class="video-items"><a href="#"></a></li>
+						<li class="video-items"><a href="#"></a></li>
+						<li class="video-items"><a href="#"></a></li>
+					</ul>
+				</div>
+			</div> -->
+		</div>
+	</div>
+
+	<!--footer-->
+	<div class="footer">
+		<div class="site-footer">
+			<div class="container">
+				<div class="footer-service">
+					<ul>
+						<li><a href="#"><i class="iconfont">&#xe659;</i>预约维修服务</a></li>
+						<li><a href="#"><i class="iconfont">&#xe61f;</i>7天无理由退货</a></li>
+						<li><a href="#"><i class="iconfont">&#xe606;</i>15天免费换货</a></li>
+						<li><a href="#"><i class="iconfont">&#xf01da;</i>满69元包邮</a></li>
+						<li><a href="#"><i class="iconfont">&#xe61c;</i>520余家售后网点</a></li>
+					</ul>
+				</div>
+				<div class="footer-links">
+					<dl>
+						<dt></dt>
+					</dl>
+					<dl>
+						<dt>选购指南</dt>
+						<dd><a href="#">手机</a></dd>
+						<dd><a href="#">电视</a></dd>
+						<dd><a href="#">笔记本</a></dd>
+						<dd><a href="#">平板</a></dd>
+						<dd><a href="#">穿戴</a></dd>
+						<dd><a href="#">耳机</a></dd>
+						<dd><a href="#">家电</a></dd>
+						<dd><a href="#">路由器</a></dd>
+						<dd><a href="#">音响</a></dd>
+						<dd><a href="#">配件</a></dd>
+					</dl>
+					<dl>
+						<dt>服务中心</dt>
+						<dd><a href="#">申请售后</a></dd>
+						<dd><a href="#">售后政策</a></dd>
+						<dd><a href="#">维修服务价格</a></dd>
+						<dd><a href="#">订单查询</a></dd>
+						<dd><a href="#">以旧换新</a></dd>
+						<dd><a href="#">保障服务</a></dd>
+						<dd><a href="#">防伪查询</a></dd>
+						<dd><a href="#">F码通道</a></dd>
+					</dl>
+					<dl>
+						<dt>线下门店</dt>
+						<dd><a href="#">小米之家</a></dd>
+						<dd><a href="#">服务网点</a></dd>
+						<dd><a href="#">授权体验店/专区</a></dd>
+					</dl>
+					<dl>
+						<dt>关于小米</dt>
+						<dd><a href="#">了解小米</a></dd>
+						<dd><a href="#">加入小米</a></dd>
+						<dd><a href="#">投资者关系</a></dd>
+						<dd><a href="#">企业社会责任</a></dd>
+						<dd><a href="#">廉洁举报</a></dd>
+					</dl>
+					<dl>
+						<dt>关注我们</dt>
+						<dd><a href="#">新浪微博</a></dd>
+						<dd><a href="#">官方微信</a></dd>
+						<dd><a href="#">联系我们</a></dd>
+						<dd><a href="#">公益基金会</a></dd>
+					</dl>
+
+					<div class="contact">
+						<p class="phone">400-100-5678</p>
+						<p>8:00-18:00 (仅收市话费)</p>
+						<a href="#"><i class="iconfont">&#xe958;</i> 人工客服</a>
+						<div class="follow"><img src="images/logo-mi2.png" alt=""> 下载小米商城APP</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="site-info">
+			<div class="container">
+				<img class="logo-bottom" src="images/logo-mi2.png" alt="">
+				<div class="info-text">
+					<p class="site">
+						<a href="#">小米商城</a><span>|</span>
+						<a href="#">MIUI</a><span>|</span>
+						<a href="#">米家</a><span>|</span>
+						<a href="#">米聊</a><span>|</span>
+						<a href="#">多看</a><span>|</span>
+						<a href="#">游戏</a><span>|</span>
+						<a href="#">政企服务</a><span>|</span>
+						<a href="#">小米天猫店</a><span>|</span>
+						<a href="#">小米集团隐私政策</a><span>|</span>
+						<a href="#">小米公司儿童信息保护规则</a><span>|</span>
+						<a href="#">小米商城隐私政策</a><span>|</span>
+						<a href="#">小米商城用户协议</a><span>|</span>
+						<a href="#">问题反馈</a><span>|</span>
+						<a href="#">Select Location</a><span>|</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
